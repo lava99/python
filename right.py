@@ -1,0 +1,9 @@
+A,B,C=map(int,input().split())
+d=A**2
+e=B**2
+f=C**2
+r=d+e
+if(r==f):
+ print("yes")
+else:
+ print("no")
